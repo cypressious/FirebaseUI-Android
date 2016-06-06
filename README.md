@@ -25,15 +25,15 @@ those separately in your app.
 In your `app/build.gradle` file add a dependency on one of the FirebaseUI
 libraries.
 
-```
+```groovy
 dependencies {
-    # Single target that includes all FirebaseUI libraries
+    // Single target that includes all FirebaseUI libraries
     compile 'com.firebaseui:firebase-ui:0.4.0'
     
-    # FirebaseUI Database only
+    // FirebaseUI Database only
     compile 'com.firebaseui:firebase-ui-database:0.4.0'
     
-    # FirebaseUI Auth only
+    // FirebaseUI Auth only
     compile 'com.firebaseui:firebase-ui-auth:0.4.0'
 }
 ```
